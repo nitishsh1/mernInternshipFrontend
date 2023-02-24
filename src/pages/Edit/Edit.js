@@ -29,7 +29,7 @@ const Edit = () => {
   const [showspin, setShowSpin] = useState(true);
   const navigate = useNavigate()
 
-  const {update , setUpdate} = useContext(updateData);
+  const { setUpdate} = useContext(updateData);
   // select status
   const options = [
     { value: "Active", label: "Active" },
