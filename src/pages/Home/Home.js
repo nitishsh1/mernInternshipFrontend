@@ -85,8 +85,9 @@ const Home = () => {
     setTimeout(() => {
       setShowSpin(false);
     }, 1200);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search, gender, status, sort , page]);
-  
+
   return (
     <>
       {useradd ? (

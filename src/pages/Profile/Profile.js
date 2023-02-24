@@ -28,6 +28,7 @@ const Profile = () => {
     setTimeout(() => {
       setShowSpin(false);
     }, 1200);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
   return (
