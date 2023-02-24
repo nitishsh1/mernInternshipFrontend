@@ -52,7 +52,7 @@ const Tables = ({ userData, deleteUser,userGet, handlePrevious, handleNext, page
                             <td>{index + 1 + (page - 1)*4}</td>
                             <td>{data.fname + data.lname}</td>
                             <td>{data.email}</td>
-                            <td>{data.gender === "Male" ? "M" : "F"}</td>
+                            <td>{data.gender === "male" ? "M" : "F"}</td>
                             <td className="d-flex align-items-center">
                               <Dropdown className="text-center">
                                 <Dropdown.Toggle
